@@ -26,5 +26,8 @@
         background: rgb(120,12,12);
         background: linear-gradient(180deg, rgba(120,12,12,1) 0%, rgba(191,28,56,1) 0%, rgba(204,56,76,1) 0%, rgba(1,10,11,1) 100%);
       }
+      .text-primary{
+          color: #002FC3 !important;
+      }
     </style>
   </head>

@@ -322,6 +322,7 @@
       </div>
     </div>
   </section>
+  @include ('files/footer')
   @include('files/scripts')
   </body>
 </html>
