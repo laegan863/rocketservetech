@@ -52,7 +52,7 @@
                 </div>
     
                 <div class="col-12 mb-3 ratio ratio-21x9" style="height: 340px;">
-                    <img src="https://rocketservtech.com/wp-content/uploads/2024/02/ab-1024x444.png" class="object-fit-cover" alt="">
+                    <img src="{{asset('img\about us\1.png')}}" class="object-fit-cover" alt="">
                 </div>
 
                 <div class="col-12">
@@ -83,7 +83,7 @@
 
                         <div class="col-xxl-3 col-xl-3 col-lg-3 col-12 mt-xxl-0 mt-xl-0 mt-lg-0 mt-4">
                             <div class="ratio ratio-1x1 mb-3">
-                                <img src="https://rocketservtech.com/wp-content/uploads/2024/02/ss.png" class="object-fit-cover" alt="">
+                                <img src="{{asset('img\about us\2.png')}}" class="object-fit-cover" alt="">
                             </div>
                             
                             <p class="text-uppercase text-center h5 fw-bold">
@@ -93,7 +93,7 @@
 
                         <div class="col-xxl-3 col-xl-3 col-lg-3 col-12 mt-xxl-0 mt-xl-0 mt-lg-0 mt-4">
                             <div class="ratio ratio-1x1 mb-3">
-                                <img src="https://rocketservtech.com/wp-content/uploads/2024/02/sss.jpg" class="object-fit-cover" alt="">
+                                <img src="{{asset('img\about us\3.png')}}" class="object-fit-cover" alt="">
                             </div>
                             
                             <p class="text-uppercase text-center h5 fw-bold">
@@ -103,7 +103,7 @@
 
                         <div class="col-xxl-3 col-xl-3 col-lg-3 col-12 mt-xxl-0 mt-xl-0 mt-lg-0 mt-4">
                             <div class="ratio ratio-1x1 mb-3">
-                                <img src="https://rocketservtech.com/wp-content/uploads/2024/02/t3.jpg" class="object-fit-cover" alt="">
+                                <img src="{{asset('img\about us\4.png')}}" class="object-fit-cover" alt="">
                             </div>
                             
                             <p class="text-uppercase text-center h5 fw-bold">
@@ -113,7 +113,7 @@
 
                         <div class="col-xxl-3 col-xl-3 col-lg-3 col-12 mt-xxl-0 mt-xl-0 mt-lg-0 mt-4">
                             <div class="ratio ratio-1x1 mb-3">
-                                <img src="https://rocketservtech.com/wp-content/uploads/2024/02/t4.jpg" class="object-fit-cover" alt="">
+                                <img src="{{asset('img\about us\5.png')}}" class="object-fit-cover" alt="">
                             </div>
                             
                             <p class="text-uppercase text-center h5 fw-bold">
@@ -331,7 +331,7 @@
 
                 <div class="col-xxl-3 col-xl-3 col-lg-3 col-12 justify-self-center">
                     <div class="ratio mb-3" style="--bs-aspect-ratio: 20%;">
-                        <img src="https://rocketservtech.com/wp-content/uploads/2024/02/fotter-logo.svg" class="" alt="">
+                        <img src="{{asset('img/logo.png')}}" class="" alt="">
                     </div>
 
                     <p class="text-white-50 text-xxl-start text-xl-start text-lg-start text-center">

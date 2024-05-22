@@ -51,7 +51,7 @@
                     </p>
 
                     <div class="ratio ratio-1x1">
-                        <img src="https://rocketservtech.com/wp-content/uploads/2024/02/why-1.png" class="img-fluid" alt="">
+                        <img src="{{asset('img\contact us\1.png')}}" class="img-fluid" alt="">
                     </div>
                 </div>
 
@@ -196,7 +196,7 @@
 
                 <div class="col-xxl-3 col-xl-3 col-lg-3 col-12 justify-self-center">
                     <div class="ratio mb-3" style="--bs-aspect-ratio: 20%;">
-                        <img src="https://rocketservtech.com/wp-content/uploads/2024/02/fotter-logo.svg" class="" alt="">
+                        <img src="{{asset('img/logo.png')}}" class="" alt="">
                     </div>
 
                     <p class="text-white-50 text-xxl-start text-xl-start text-lg-start text-center">
