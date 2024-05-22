@@ -325,6 +325,9 @@
     </section>
 
     <!-- Footer -->
+
+@include ('files/footer')
+
     <section class="px-xxl-4 px-xl-4 px-lg-4 px-0 bg-black">
         <div class="container-fluid px-xxl-5 px-xl-5 px-lg-5 px-2 py-5">
             <div class="row justify-content-between px-xxl-5 px-xl-5 px-lg-5 px-2 pb-5">

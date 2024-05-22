@@ -2,7 +2,7 @@
   <div class="container-fluid bg-dark px-5 py-2">
   <div class="d-flex justify-content-between">
     <div class="text-start text-light ">
-      support@rocketservtech.com
+      support@assiato-service.co.uk
     </div>
     <div class="text-end d-flex gap-3">
       <a href="#" class="text-light">
@@ -19,7 +19,9 @@
 </div>
 <nav class="navbar navbar-expand-lg bg-body-tertiary py-2">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">LOGO</a>
+      <a class="navbar-brand" href="{{route('page.index')}}">
+          <img src="https://rocketservtech.com/wp-content/uploads/2024/02/fotter-logo.svg" height="80px" width="200px" alt="">
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>

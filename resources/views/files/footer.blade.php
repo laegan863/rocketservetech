@@ -24,20 +24,30 @@
 
                             <ul class="list-group">
                                 <li class="list-group-item bg-transparent border-0 p-0 mb-1">
-                                    <a href="#" class="text-decoration-none text-white fw-semibold">
+                                    <a href="{{route('page.index')}}" class="text-decoration-none text-white fw-semibold">
                                         Home
                                     </a>
                                 </li>
 
                                 <li class="list-group-item bg-transparent border-0 p-0 mb-1">
-                                    <a href="#" class="text-decoration-none text-white fw-semibold">
+                                    <a href="{{route('page.about')}}" class="text-decoration-none text-white fw-semibold">
                                         About Us
                                     </a>
                                 </li>
 
                                 <li class="list-group-item bg-transparent border-0 p-0 mb-1">
-                                    <a href="#" class="text-decoration-none text-white fw-semibold">
+                                    <a href="{{route('page.contact')}}" class="text-decoration-none text-white fw-semibold">
                                         Contact Us
+                                    </a>
+                                </li>
+                                <li class="list-group-item bg-transparent border-0 p-0 mb-1">
+                                    <a href="{{route('page.terms')}}" class="text-decoration-none text-white fw-semibold">
+                                        Terms & Condition
+                                    </a>
+                                </li>
+                                <li class="list-group-item bg-transparent border-0 p-0 mb-1">
+                                    <a href="{{route('page.privacy')}}" class="text-decoration-none text-white fw-semibold">
+                                        Privacy Policy
                                     </a>
                                 </li>
                             </ul>
