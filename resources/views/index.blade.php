@@ -25,8 +25,8 @@
           LET'S TALK
         </button>
       </div>
-      <div class="col-lg-6">
-        <img src="https://rocketservtech.com/wp-content/uploads/2024/02/banner1-1.png" class="img-fluid">
+      <div class="col-lg-6 d-flex justify-content-center">
+        <img src="{{asset('images/1.png')}}" class="img-fluid">
       </div>
     </div>
   </section>
@@ -59,7 +59,7 @@
     </div>
     <div class="row my-5 py-5">
       <div class="col-lg-6">
-      <img src="https://rocketservtech.com/wp-content/uploads/2024/02/about-img.png" class="img-fluid">
+      <img src="{{asset('images/3.png')}}" class="img-fluid">
     </div>
     <div class="col-lg-6 d-flex flex-column align-self-center">
       <div class="fs-5 fw-bold">
@@ -157,13 +157,11 @@
           LET'S TALK
         </button>
       </div>
-      <div class="col-lg-6">
-        <img src="https://rocketservtech.com/wp-content/uploads/2024/02/cta1.png" class="img-fluid">
+      <div class="col-lg-6 d-flex justify-content-center">
+        <img src="{{asset('images/10.png')}}" class="img-fluid">
       </div>
     </div>
-  </section>
-  @include('files/happyclients')
-  
+  </section>s
   <section class="container my-5">
     <div class="text-center">
         <h2 class="text-primary">What Sets Us Apart?</h2>
@@ -290,13 +288,13 @@
       </div>
     </div>
   </section>
-  <section class="container">
+  <section class="container py-5">
     <div class="text-center">
         <h2 class="text-primary">CONTACT US</h2>
     </div>
     <div class="row">
-      <div class="col-lg-6 d-flex">
-        <img src="https://rocketservtech.com/wp-content/uploads/2024/03/Group-306.svg" class="img-fluid">
+      <div class="col-lg-6 d-flex justify-content-center">
+        <img src="{{asset('images/12.png')}}" class="img-fluid">
       </div>
       <div class="col-lg-6 d-flex flex-column align-self-center">
         <h4 class="fw-bold text-black">

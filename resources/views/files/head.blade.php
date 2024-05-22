@@ -29,5 +29,12 @@
       .text-primary{
           color: #002FC3 !important;
       }
+      .btn-primary{
+        background-color: #80241d !important;
+        border: #80241d !important;
+      }
+      .text-primary{
+        color:#80241d !important;
+      }
     </style>
   </head>
