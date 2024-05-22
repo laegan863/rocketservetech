@@ -1,5 +1,5 @@
 
-  <div class="container-fluid bg-dark px-5">
+  <div class="container-fluid bg-dark px-5 py-2">
   <div class="d-flex justify-content-between">
     <div class="text-start text-light ">
       support@rocketservtech.com
@@ -17,7 +17,7 @@
     </div>
   </div>
 </div>
-<nav class="navbar navbar-expand-lg bg-body-tertiary px-5 py-2">
+<nav class="navbar navbar-expand-lg bg-body-tertiary py-2">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">LOGO</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,16 +36,16 @@
               Service
             </a>
             <ul class="dropdown-menu">
-              <li>
+              <!-- <li>
                 <a class="dropdown-item" href="{{route('page.web-development')}}">Web Development Services</a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">UX & UI Design Services</a>
-              </li>
+              </li> -->
               <li>
                 <a class="dropdown-item" href="{{route('page.digital-marketing')}}">Digital Marketing Services</a>
               </li>
-              <li>
+              <!-- <li>
                 <a class="dropdown-item" href="#">Data Entry Services</a>
               </li>
               <li>
@@ -59,7 +59,7 @@
               </li>
               <li>
                 <a class="dropdown-item" href="#">Cyber Security Services</a>
-              </li>
+              </li> -->
             </ul>
           </li>
           <li class="nav-item">
