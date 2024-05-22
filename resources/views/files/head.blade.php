@@ -36,5 +36,8 @@
       .text-primary{
         color:#80241d !important;
       }
+      .bg-primary{
+        background-color:#80241d !important;
+      }
     </style>
   </head>
