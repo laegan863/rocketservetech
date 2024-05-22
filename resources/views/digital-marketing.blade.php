@@ -253,27 +253,36 @@
         <h1><b>PRICING TABLE*</b></h1>
       </div>
       <div class="col-lg-7">
-        <div class="row">
+        <div class="row ">
           <div class="col-lg-6 d-flex">
             <div class="card p-5 border-0 shadow-lg text-center">
-              <h4 class="fw-bold">Basic Service Package</h4>
-              <div class="my-5 text-start">
+              <h4 class="fw-bold text">Basic Service Package</h4>
+              <h5 class="fw-bold text-start mt-2 text">Price: $79.99</h5>
+              <hr>
+              <div class="mb-5 text-start">
                 <p class="fw-semibold">1 Month SEO</p>
                 <hr>
                 <p class="fw-semibold">5 Page Keyword Addition and Review</p>
                 <hr>
                 <p class="fw-semibold">PPC Campaign Set Up</p>
                 <hr>
-                <button class="btn btn-danger col-12 text-center text-light fw-bold" style="margin-top: 67%">
-                  BUY NOW
-                </button>
+                <form method="post" action="{{route('payment.info')}}">
+                  @csrf
+                  <input type="hidden" value="Basic Service Package" name="description">
+                  <input type="hidden" value="7999" name="amount">
+                  <button class="btn btn-danger col-12 text-center text-light fw-bold" style="margin-top: 67%">
+                    BUY NOW
+                  </button>
+                </form>
               </div>
             </div>
           </div>
           <div class="col-lg-6 d-flex">
             <div class="card p-5 border-0 shadow-lg text-center">
               <h4 class="fw-bold text-danger">Premium Service Package</h4>
-              <div class="my-5 text-start">
+              <h5 class="fw-bold text-start mt-2 text-danger">Price: $149.90</h5>
+              <hr>
+              <div class="mb-5 text-start">
                 <p class="fw-semibold">3 Month SEO</p>
                 <hr>
                 <p class="fw-semibold">
@@ -288,9 +297,14 @@
                   2 Months PPC Campaign Service
                 </p>
                 <hr>
-                <button class="btn btn-danger col-12 text-center mt-4 text-light fw-bold">
-                  BUY NOW
-                </button>
+                <form method="post" action="{{route('payment.info')}}">
+                  @csrf
+                  <input type="hidden" value="Premium Service Package" name="description">
+                  <input type="hidden" value="14900" name="amount">
+                  <button  class="btn btn-danger col-12 text-center mt-4 text-light fw-bold">
+                    BUY NOW
+                  </button>
+                </form>
               </div>
             </div>
           </div>
