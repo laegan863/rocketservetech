@@ -29,7 +29,7 @@
             <a class="nav-link" href="{{route('page.index')}}">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="{{route('page.about')}}">About Us</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -63,7 +63,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
+            <a class="nav-link" href="{{route('page.contact')}}">Contact Us</a>
           </li>
         </ul>
       </div>
