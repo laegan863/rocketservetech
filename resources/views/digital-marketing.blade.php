@@ -18,14 +18,14 @@
         </button>
       </div>
       <div class="col-lg-6 p-5">
-        <img src="https://rocketservtech.com/wp-content/uploads/2024/02/digi-1024x884.png" class="img-fluid">
+        <img src="{{asset('images/21.png')}}" class="img-fluid">
       </div>
     </div>
   </section>
   <section class="container my-5">
     <div class="row my-5 py-5">
       <div class="col-lg-6">
-      <img src="https://rocketservtech.com/wp-content/uploads/2024/02/Rectangle-5-903x1024.png" class="img-fluid">
+      <img src="{{asset('images/3.png')}}" class="img-fluid">
     </div>
     <div class="col-lg-6 d-flex flex-column align-self-center">
       <div class="fs-5 fw-bold">
@@ -179,7 +179,7 @@
   <section class="container my-5">
     <div class="row">
       <div class="col-lg-6 d-flex">
-        <img src="https://rocketservtech.com/wp-content/uploads/2024/02/graph.png" class="img-fluid">
+        <img src="{{asset('images/22.png')}}" class="img-fluid">
       </div>
       <div class="col-lg-6 d-flex flex-column align-self-center">
         <h3 class="fw-bold">
@@ -203,7 +203,7 @@
     <center>
       <h2 class="text-danger">Our Process</h2>
       <p class="text-light mb-5">Our professionals are adept in increasing your online presence, visibility, and brand awareness along with helping you boost your ROI. We make outsourcing digital marketing services a breeze. All of this happens in just four simple steps.s</p>
-      <img src="https://rocketservtech.com/wp-content/uploads/2024/02/process-1024x527.png" class="img-fluid">
+      <img src="{{asset('images/24.png')}}" class="img-fluid">
     </center>
   </section>
   <section class="container my-5">
@@ -315,7 +315,7 @@
   <section class="container my-5">
     <div class="row">
       <div class="col-lg-6 d-flex">
-        <img src="https://rocketservtech.com/wp-content/uploads/2024/02/Rectangle-53-1024x682.png" class="img-fluid">
+        <img src="{{asset('images/13.png')}}" class="img-fluid">
       </div>
       <div class="col-lg-6 d-flex flex-column align-self-center">
         <h3 class="text-black fw-bold mb-4">Design. Develop. Update.</h3>

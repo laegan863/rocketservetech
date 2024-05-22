@@ -20,7 +20,7 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary py-2">
     <div class="container-fluid">
       <a class="navbar-brand" href="{{route('page.index')}}">
-          <img src="https://rocketservtech.com/wp-content/uploads/2024/02/fotter-logo.svg" height="80px" width="200px" alt="">
+          <img src="{{asset('images/logo.png')}}" height="80px" width="150px" alt="">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>

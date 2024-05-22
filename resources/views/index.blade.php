@@ -170,7 +170,7 @@
     </div>
     <div class="row my-5">
       <div class="col-lg-6 d-flex">
-        <img src="https://rocketservtech.com/wp-content/uploads/2024/02/why-1.png" class="img-fluid">
+        <img src="{{asset('images/13.png')}}" class="img-fluid">
       </div>
       <div class="col-lg-6 d-flex flex-column">
         <div class="text-justify">
